@@ -24,4 +24,3 @@ def is_angle_between(first_angle, middle_angle, second_angle):
     between = first_angle <= middle_angle <= second_angle
     # note 180 when 180 degrees (half circle is include since the definition did not specifically mention)
     return not between if (second_angle - first_angle) >= 180 else between
-
