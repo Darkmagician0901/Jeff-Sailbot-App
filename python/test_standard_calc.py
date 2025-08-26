@@ -16,7 +16,7 @@ def test_between_basic1():
 
     assert is_angle_between(0, 1, 2)
     assert not is_angle_between(0, 180, 359)
-    assert not is_angle_between(0, 190, 270) 
+    assert not is_angle_between(0, 190, 270)
     assert is_angle_between(181.46, 180.9, 179.3)
     assert is_angle_between(-170, 179, 170)
     assert is_angle_between(-170, 180, 170)
