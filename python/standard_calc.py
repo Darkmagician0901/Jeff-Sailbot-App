@@ -1,4 +1,5 @@
 def bound_to_180(angle):
+    
     # find equivalent positive angle
     # To get [0,360] angle , we define args = k*360 + target
     # target = angle mod 360
@@ -11,6 +12,7 @@ def bound_to_180(angle):
 
 
 def is_angle_between(first_angle, middle_angle, second_angle):
+    
     # find acceptable interval
     first_angle = bound_to_180(first_angle)
     second_angle = bound_to_180(second_angle)
